@@ -1,7 +1,9 @@
 # RaspberryPI_CO2_Monitor
 CO2 Monitoring with a Rasperry Pi
 
-Dieses Projekt dient zur CO2-Gehalt überwachung eines Raumes. Durch diesen Wert kann ausgesagt werden, wann sich zu viel CO2 in der Raumluft befindet. Faslls dies Auftritt ertönt ein lauter Buzzer.
-Dies kann in Zeiten von Corona sehr wichtig sein, da niedriger CO2-Gehalt auch mit einer geringeren Aerosol Belastung zusammen hängt. Der Buzzer erinnert z.B. die Schulklasse an das regelmäßige Lüften. 
+This projects aims to monitor the CO2-level of a room and displays it on a RGB-LED. In addition to that, if the CO2-level of the room is higher than healthy for people, a buzzer starts to beep in order to warn the people in that room.
 
-Weiters werden diese Daten (+Luftfeuchtigkeit, Temperatur) in einer online einsichtbaren Datenbank erfasst, um das Raumverhalten dokumentieren zu können.
+In times of covid, this application finds use in schools and other buildings where many people are gathered in one room together.
+That is due to the fact that a low CO2-level is also signalising a low level of aersol. The beep of the buzzer reminds to ventilate the room.
+
+In addition to the CO2-level measurement, this application also measures the humidity and the temperature of the room. Those measurements are uploaded to an online database so the behaviour of the room can be monitored.
