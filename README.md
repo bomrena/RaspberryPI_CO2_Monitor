@@ -23,7 +23,7 @@ In addition to the CO2-level measurement, this application also measures the hum
 ## RGB-LED
 [testfile](/test_RGB.py)
 
-'''python
+'''
 
 import RPi.GPIO as GPIO
 
