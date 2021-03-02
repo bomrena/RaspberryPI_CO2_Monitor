@@ -1,5 +1,5 @@
 # RaspberryPI_CO2_Monitor
-## CO2 Monitoring with a Rasperry Pi :monkey:
+## CO2 monitoring with a rasperry pi :monkey:
 
 This projects aims to monitor the CO2-level of a room and displays it on a RGB-LED. In addition to that, if the CO2-level of the room is higher than healthy for people, a buzzer starts to beep in order to warn the people in that room. To furthermore visualize the CO2-Level a RGB-LED is functioning as a kind of traffic light to prohylacticly signal the conentration.
 
@@ -10,7 +10,7 @@ In addition to the CO2-level measurement, this application also measures the hum
 
 *Link to the online database:* https://thingspeak.com/channels/1290605
 
-## Hardware equipment needed
+## hardware equipment needed
 - 1 x [Rasberry Pi with Power Supply](https://www.raspberrypi.org/products/): Version 3 and up 
 - 1 x [Temperature Sensor](https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/DHT11_Humidity_TempSensor.pdf): DHT11-Type 
 - 1 x [CO2 Sensor](https://www.winsen-sensor.com/d/files/PDF/Infrared%20Gas%20Sensor/NDIR%20CO2%20SENSOR/MH-Z19%20CO2%20Ver1.0.pdf)
@@ -19,20 +19,20 @@ In addition to the CO2-level measurement, this application also measures the hum
 - 1 x 200Ohm Resistor
 - Jumper Wires: Male to Male, Female to Male
 
-## RGB-LED
+## rgb-led
 [testfile](/test_RGB.py)
 
-## Active buzzer
+## active buzzer
 [testfile](/test_buzzer.py)
 
-## Temperature and humidity sensor
+## temperature and humidity sensor
 [testfile](/)
 
 ## CO2 sensor
 [testfile](/)
 
-## Database
+## database
 [testfile](/temp_online.py)
 
-## Final project
+## final project
 
