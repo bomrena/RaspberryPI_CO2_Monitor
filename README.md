@@ -23,11 +23,12 @@ In addition to the CO2-level measurement, this application also measures the hum
 ## RGB-LED
 [testfile](/test_RGB.py)
 ## Active buzzer
-
+[testfile](/test_buzzer.py)
 ## Temperature and humidity sensor
-
+[testfile](/test_buzzer.py)
 ## CO2 sensor
-
+[testfile](/temp_online.py)
 ## Database
-
+[testfile](/temp_online.py)
 ## Final project
+
