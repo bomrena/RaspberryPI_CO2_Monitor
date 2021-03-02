@@ -10,7 +10,6 @@ In addition to the CO2-level measurement, this application also measures the hum
 
 *Link to the online database:* https://thingspeak.com/channels/1290605
 
-
 ## Hardware equipment needed
 - 1 x [Rasberry Pi with Power Supply](https://www.raspberrypi.org/products/): Version 3 and up 
 - 1 x [Temperature Sensor](https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/DHT11_Humidity_TempSensor.pdf): DHT11-Type 
@@ -23,14 +22,11 @@ In addition to the CO2-level measurement, this application also measures the hum
 ## RGB-LED
 [testfile](/test_RGB.py)
 
-```
-
+```python
 import RPi.GPIO as GPIO
-
 import time
 
 GPIO.setwarnings(False)
-
 GPIO.setmode(GPIO.BOARD)
 
 blue = 11           # blue LED is connected to Pin 11
@@ -51,7 +47,6 @@ pwm_green = GPIO.PWM(green, 5000)
 pwm_red.start(0)    # duty cycle set 0
 pwm_blue.start(0)
 pwm_green.start(0)
-
 pwm_blue.ChangeDutyCycle(0)
 
 def setColor(color):
