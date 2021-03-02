@@ -8,6 +8,6 @@ That is due to the fact that a low CO2-level is also signalising a low level of 
 
 In addition to the CO2-level measurement, this application also measures the humidity and the temperature of the room. Those measurements are uploaded to an online database so the behaviour of the room can be monitored.
 
-Link to the online database: https://thingspeak.com/channels/1290605
+*Link to the online database:* https://thingspeak.com/channels/1290605
 
 # Temperature
