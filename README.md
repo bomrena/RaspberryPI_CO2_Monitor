@@ -1,5 +1,5 @@
 # RaspberryPI_CO2_Monitor
-CO2 Monitoring with a Rasperry Pi :monkey:
+## CO2 Monitoring with a Rasperry Pi :monkey:
 
 This projects aims to monitor the CO2-level of a room and displays it on a RGB-LED. In addition to that, if the CO2-level of the room is higher than healthy for people, a buzzer starts to beep in order to warn the people in that room. To furthermore visualize the CO2-Level a RGB-LED is functioning as a kind of traffic light to prohylacticly signal the conentration.
 
