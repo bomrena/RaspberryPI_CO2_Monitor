@@ -11,7 +11,7 @@ In addition to the CO2-level measurement, this application also measures the hum
 *Link to the online database:* https://thingspeak.com/channels/1290605
 
 
-# Hardware equipment needed
+## Hardware equipment needed
 - 1 x [Rasberry Pi with Power Supply](https://www.raspberrypi.org/products/): Version 3 and up 
 - 1 x [Temperature Sensor](https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/DHT11_Humidity_TempSensor.pdf): DHT11-Type 
 - 1 x [CO2 Sensor](https://www.winsen-sensor.com/d/files/PDF/Infrared%20Gas%20Sensor/NDIR%20CO2%20SENSOR/MH-Z19%20CO2%20Ver1.0.pdf)
@@ -20,14 +20,14 @@ In addition to the CO2-level measurement, this application also measures the hum
 - 1 x 200Ohm Resistor
 - Jumper Wires: Male to Male, Female to Male
 
-# RGB-LED
+## RGB-LED
 
-# Active buzzer
+## Active buzzer
 
-# Temperature and humidity sensor
+## Temperature and humidity sensor
 
-# CO2 sensor
+## CO2 sensor
 
-# Database
+## Database
 
-# Final project
+## Final project
