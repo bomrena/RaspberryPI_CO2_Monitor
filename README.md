@@ -22,15 +22,22 @@ In addition to the CO2-level measurement, this application also measures the hum
 
 ## RGB-LED
 [testfile](/test_RGB.py)
+
 '''python
+
 import RPi.GPIO as GPIO
+
 import time
+
 GPIO.setwarnings(False)
+
 GPIO.setmode(GPIO.BOARD)
+
 blue = 11           # blue LED is connected to Pin 11
 red = 12            # red LED is connected to Pin 12
 green = 13          # green LED is connected to Pin 13
 button = 10         # Button is connected to Pin 14
+
 GPIO.setup(blue, GPIO.OUT)  #Blue LED
 GPIO.setup(red, GPIO.OUT)   #Red LED
 GPIO.setup(green, GPIO.OUT) #Green LED
@@ -41,7 +48,7 @@ pwm_red = GPIO.PWM(red, 5000)   #PWM with Frequency of 2kHz
 pwm_blue = GPIO.PWM(blue, 5000)
 pwm_green = GPIO.PWM(green, 5000)
 
-pwm_red.start(0)                # duty cycle set 0
+pwm_red.start(0)    # duty cycle set 0
 pwm_blue.start(0)
 pwm_green.start(0)
 
