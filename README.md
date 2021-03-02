@@ -23,7 +23,7 @@ In addition to the CO2-level measurement, this application also measures the hum
 ## RGB-LED
 [testfile](/test_RGB.py)
 
-'''
+```
 
 import RPi.GPIO as GPIO
 
@@ -75,7 +75,7 @@ while True:
         if(i>=3):                       #reset i to 0
             i=0
         time.sleep(0.1)                 #no keybounce
-'''
+```
 ## Active buzzer
 [testfile](/test_buzzer.py)
 ## Temperature and humidity sensor
