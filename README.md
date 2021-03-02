@@ -26,10 +26,10 @@ In addition to the CO2-level measurement, this application also measures the hum
 [testfile](/test_buzzer.py)
 
 ## Temperature and humidity sensor
-[testfile](/test_buzzer.py)
+[testfile](/)
 
 ## CO2 sensor
-[testfile](/temp_online.py)
+[testfile](/)
 
 ## Database
 [testfile](/temp_online.py)
