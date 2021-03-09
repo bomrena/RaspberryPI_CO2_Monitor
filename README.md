@@ -20,8 +20,10 @@ In addition to the CO2-level measurement, this application also measures the hum
 - Jumper Wires: Male to Male, Female to Male
 
 ## instruction manual
-- hardware setup:
--- hi
+### hardware setup:
+ hi
+### software setup
+hii
 
 ## rgb-led
 [testfile](/test_RGB.py)
