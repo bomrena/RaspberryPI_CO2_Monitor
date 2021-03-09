@@ -22,7 +22,7 @@ In addition to the CO2-level measurement, this application also measures the hum
 ## instruction manual
 ### hardware setup:
  hi
-### software setup
+### software setup:
 hii
 
 ## rgb-led
