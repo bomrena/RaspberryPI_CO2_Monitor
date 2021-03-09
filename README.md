@@ -19,6 +19,10 @@ In addition to the CO2-level measurement, this application also measures the hum
 - 1 x 200Ohm Resistor
 - Jumper Wires: Male to Male, Female to Male
 
+## instruction manual
+- hardware setup:
+-- hi
+
 ## rgb-led
 [testfile](/test_RGB.py)
 
