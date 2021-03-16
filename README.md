@@ -52,13 +52,27 @@ The sound of the active buzzer can be controlled over the duty-cycle of the conn
 The temperature and humidity sensor used in this project is the DHT11.
 There is already a great explaination on how to use this sensor. You can find it on https://thinkingofpi.com/getting-started/raspberry-pi-dht11/
 
-[TEMP_DATABASE_TST](/)
+[TEMP_DATABASE_TST](/temp_online.py)
+
+
+## DATABASE
+The online database to display the measurements of the temperature und CO2 value is https://thingspeak.com/
+You can create an account and are able to upload data on the database every 15 seconds.
+You will get a key to your created database. With this key, you can upload data from every device you use. 
+
+In order to select the correct graph to upload your data to, you just need to change the field to the one you want to use. We are using
+- CO2: field1 (shows the CO2 level of the room)
+- Temperature field2 (shows the temperature of the room)
+- Humidity field3 (shows the humidity of the room)
+- Warning field4 (shows if a warning was set active)
+
+
+
+[testfile](/temp_online.py)
 
 ## CO2 SENSOR
 [testfile](/)
 
-## DATABASE
-[testfile](/temp_online.py)
 
 ## FINAL PROJECT
 
