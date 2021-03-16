@@ -19,14 +19,15 @@ In addition to the CO2-level measurement, this application also measures the hum
 - 1 x 200Ohm Resistor
 - Jumper Wires: Male to Male, Female to Male
 
-## instruction manual
-### hardware setup:
+## INSTRUCTION MANUAL
+### HARDWARE SETUP
  hi
-### software setup:
+### SOFTWARE SETUP
 hii
 
-## rgb-led
-[testfile](/test_RGB.py)
+## RGB-LED
+
+
 As already mentioned in the hardware equipment part, the LED used as an optical indicator for the CO2 value of the room.
 There are three different light-modes:
 
@@ -36,17 +37,24 @@ There are three different light-modes:
 
 source: https://www.indoordoctor.com/indoor-carbon-dioxide-levels-health/
 
-## active buzzer
+The RGB-led is made out of three different leds (red, green, blue). The color of the emitted light depends on the duty cycle of each of the leds.
+The red led is connected on PIN 12
+The green led is connected on PIN 13
+The blue led is connected on PIN 11
+
+In order to see what duty-cycle you need for your color of the led, visit: https://www.w3schools.com/colors/colors_rgb.asp
+[RGB_TEST](/test_RGB.py)
+## ACTIVE BUZZER
 [testfile](/test_buzzer.py)
 
-## temperature and humidity sensor
+## TEMPERATURE AND HUMIDITY SENSOR
 [testfile](/)
 
-## CO2 sensor
+## CO2 SENSOR
 [testfile](/)
 
-## database
+## DATABASE
 [testfile](/temp_online.py)
 
-## final project
+## FINAL PROJECT
 
