@@ -26,8 +26,6 @@ In addition to the CO2-level measurement, this application also measures the hum
 hii
 
 ## RGB-LED
-
-
 As already mentioned in the hardware equipment part, the LED used as an optical indicator for the CO2 value of the room.
 There are three different light-modes:
 
@@ -46,9 +44,13 @@ In order to see what duty-cycle you need for your color of the led, visit: https
 
 [RGB_TEST](/test_RGB.py)
 ## ACTIVE BUZZER
+The sound of the active buzzer can be controlled over the duty-cycle of the connected pin. It is connected on PIN 8 on the Raspberrypi.
+
 [testfile](/test_buzzer.py)
 
 ## TEMPERATURE AND HUMIDITY SENSOR
+
+
 [testfile](/)
 
 ## CO2 SENSOR
