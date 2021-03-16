@@ -38,7 +38,7 @@ source: https://www.indoordoctor.com/indoor-carbon-dioxide-levels-health/
 The RGB-led is made out of three different leds (red, green, blue). The color of the emitted light depends on the duty cycle of each of the leds.
 - The red led is connected on PIN 12
 - The green led is connected on PIN 13
-- The blue led is connected on PIN 11
+- The blue led is connected on PIN 10
 
 In order to see what duty-cycle you need for your color of the led, visit: https://www.w3schools.com/colors/colors_rgb.asp
 
