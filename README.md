@@ -42,11 +42,11 @@ The blue led is connected on PIN 11
 
 In order to see what duty-cycle you need for your color of the led, visit: https://www.w3schools.com/colors/colors_rgb.asp
 
-[RGB_TEST](/test_RGB.py)
+[RGB_TST](/test_RGB.py)
 ## ACTIVE BUZZER
 The sound of the active buzzer can be controlled over the duty-cycle of the connected pin. It is connected on PIN 8 on the Raspberrypi.
 
-[testfile](/test_buzzer.py)
+[BUZ_TST](/test_buzzer.py)
 
 ## TEMPERATURE AND HUMIDITY SENSOR
 
