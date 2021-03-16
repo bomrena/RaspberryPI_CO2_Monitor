@@ -11,18 +11,19 @@ GPIO.setup(red, GPIO.OUT)   #Red LED
 GPIO.setup(green, GPIO.OUT) #Green LED
 GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP) #button PD
 
-colors = [0xFF0000, 0x0F0F00, 0x00FF00]
+colors = [0xFF0000, 0x00FF00, 0x00FF00] # color you want to display
 pwm_red = GPIO.PWM(red, 5000)   #PWM with Frequency of 2kHz
 pwm_blue = GPIO.PWM(blue, 5000)
 pwm_green = GPIO.PWM(green, 5000)
 
-pwm_red.start(0)                # duty cycle set 0
+# duty cycle set 0
+pwm_red.start(0)                
 pwm_blue.start(0)
 pwm_green.start(0)
 
 pwm_blue.ChangeDutyCycle(0)
 
-def setColor(color):
+def setColor(color): #masks for the duty-cycle calculation
     red_value=(color & 0x110000) >> 16
     green_value = (color & 0x001100) >> 8
     blue_value = (color & 0x000011) >> 0
