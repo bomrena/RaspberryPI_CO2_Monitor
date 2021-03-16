@@ -2,10 +2,10 @@ import RPi.GPIO as GPIO
 import time
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
-blue = 11           # blue LED is connected to Pin 11
+blue = 10           # blue LED is connected to Pin 11
 red = 12            # red LED is connected to Pin 12
 green = 13          # green LED is connected to Pin 13
-button = 10         # Button is connected to Pin 14
+button = 14         # Button is connected to Pin 14
 GPIO.setup(blue, GPIO.OUT)  #Blue LED
 GPIO.setup(red, GPIO.OUT)   #Red LED
 GPIO.setup(green, GPIO.OUT) #Green LED
