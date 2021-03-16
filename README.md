@@ -16,6 +16,7 @@ In addition to the CO2-level measurement, this application also measures the hum
 - 1 x [CO2 Sensor](https://www.winsen-sensor.com/d/files/PDF/Infrared%20Gas%20Sensor/NDIR%20CO2%20SENSOR/MH-Z19%20CO2%20Ver1.0.pdf)
 - 1 x [Active Buzzer](https://arduinomodules.info/ky-012-active-buzzer-module/)
 - 1 x [RGB LED](https://arduinomodules.info/ky-016-rgb-full-color-led-module/)
+- 1 x [pushbutton](https://www.amazon.de/Youmile-100er-Pack-Miniatur-Mikro-Taster-Tastschalter-Qualit%C3%A4tsschalter-Miniature-6-x-5-mm/dp/B07Q1BXV7T/)
 - 1 x 200Ohm Resistor
 - Jumper Wires: Male to Male, Female to Male
 
