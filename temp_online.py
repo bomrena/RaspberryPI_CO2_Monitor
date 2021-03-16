@@ -6,10 +6,11 @@ import Freenove_DHT as DHT
 GPIO.setwarnings(False)
 
 DHTPin = 11
-buzzer = 8
 
 baseURL = "http://api.thingspeak.com/update?api_key=DIKFU2NDD22KUA70&"  #URL for the Thingspeak (Database) Channel. Teh api_key authorizes our channel
-fieldCO2 = "field1="     #to upload the data directly into the right graphs, these fields are needed to be adressed
+
+#to upload the data directly into the right graphs, these fields are needed to be adressed
+fieldCO2 = "field1="    
 fieldTEMP = "field2="
 fieldHUM = "field3="
 fieldWARNING = "field4="
