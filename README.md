@@ -49,9 +49,10 @@ The sound of the active buzzer can be controlled over the duty-cycle of the conn
 [BUZ_TST](/test_buzzer.py)
 
 ## TEMPERATURE AND HUMIDITY SENSOR
+The temperature and humidity sensor used in this project is the DHT11.
+There is already a great explaination on how to use this sensor. You can find it on https://thinkingofpi.com/getting-started/raspberry-pi-dht11/
 
-
-[testfile](/)
+[TEMP_DATABASE_TST](/)
 
 ## CO2 SENSOR
 [testfile](/)
