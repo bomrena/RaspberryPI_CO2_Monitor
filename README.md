@@ -27,7 +27,15 @@ hii
 
 ## rgb-led
 [testfile](/test_RGB.py)
-TESTblabla
+As already mentioned in the hardware equipment part, the LED used as an optical indicator for the CO2 value of the room.
+There are three different light-modes:
+
+- green:   250 - 1000 ppm (normal outdoor air level - typical level found in occupied spaces with good air exchange)
+- orange:  1000 - 2000 ppm (level associated with complaints of drowsiness and poor air)
+- red:     2000 and above (level associated with headaches, sleepiness and poor concentration)
+
+source: https://www.indoordoctor.com/indoor-carbon-dioxide-levels-health/
+
 ## active buzzer
 [testfile](/test_buzzer.py)
 
