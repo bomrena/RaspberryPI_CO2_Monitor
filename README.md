@@ -51,8 +51,9 @@ The sound of the active buzzer can be controlled over the duty-cycle of the conn
 ## TEMPERATURE AND HUMIDITY SENSOR
 The temperature and humidity sensor used in this project is the DHT11.
 There is already a great explaination on how to use this sensor. You can find it on https://thinkingofpi.com/getting-started/raspberry-pi-dht11/
+Please notice that the DHT11 is connected on PIN 11.
 
-[TEMP_DATABASE_TST](/temp_online.py)
+[TEMP&DATA_TST](/temp_online.py)
 
 
 ## DATABASE
@@ -68,7 +69,7 @@ In order to select the correct graph to upload your data to, you just need to ch
 
 
 
-[testfile](/temp_online.py)
+[TEMP&DATA_TST](/temp_online.py)
 
 ## CO2 SENSOR
 [testfile](/)
