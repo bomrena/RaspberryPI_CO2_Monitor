@@ -45,7 +45,7 @@ In order to see what duty-cycle you need for your color of the led, visit: https
 
 [RGB_TST](/test_RGB.py)
 ## ACTIVE BUZZER
-The sound of the active buzzer can be controlled over the duty-cycle of the connected pin. It is connected on PIN 8 on the Raspberrypi.
+The sound of the active buzzer can be controlled over the duty-cycle of the connected pin. It is connected to PIN 8 on the Raspberrypi.
 
 [BUZ_TST](/test_buzzer.py)
 
