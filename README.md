@@ -24,7 +24,12 @@ In addition to the CO2-level measurement, this application also measures the hum
 ### HARDWARE SETUP
  hi
 ### SOFTWARE SETUP
-To correctly run this application just simply download the "final_project.py" file on your rasberry pie
+To correctly run this application just simply download the "final_project.py" file on your raspberry pie via the Github website. 
+Alternatively you can also copy this "gh repo clone bomrena/RaspberryPI_CO2_Monitor" command into your Console if you are running a Linux operating system on your raspberry pie.
+Now to start the script just double click the "final_project.py" file and everything should work.
+
+#### TROUBLESHOOTING SIDENOTE
+If you get an error running the pythin script using your normal python shell then try running it via "Geany".
 
 ## RGB-LED
 As already mentioned in the hardware equipment part, the LED used as an optical indicator for the CO2 value of the room.
