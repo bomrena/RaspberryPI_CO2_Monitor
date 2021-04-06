@@ -24,7 +24,7 @@ In addition to the CO2-level measurement, this application also measures the hum
 ### HARDWARE SETUP
  hi
 ### SOFTWARE SETUP
-hii
+To correctly run this application just simply download the "final_project.py" file on your rasberry pie
 
 ## RGB-LED
 As already mentioned in the hardware equipment part, the LED used as an optical indicator for the CO2 value of the room.
