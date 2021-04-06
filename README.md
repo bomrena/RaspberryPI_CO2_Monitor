@@ -29,7 +29,7 @@ Alternatively you can also copy this "gh repo clone bomrena/RaspberryPI_CO2_Moni
 Now to start the script just double click the "final_project.py" file and everything should work.
 
 #### TROUBLESHOOTING SIDENOTE
-If you get an error running the pythin script using your normal python shell then try running it via "Geany".
+If you get an error running the python script using your normal python shell then try running it via "Geany".
 
 ## RGB-LED
 As already mentioned in the hardware equipment part, the LED used as an optical indicator for the CO2 value of the room.
