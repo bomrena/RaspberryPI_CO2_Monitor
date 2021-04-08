@@ -22,7 +22,9 @@ In addition to the CO2-level measurement, this application also measures the hum
 
 ## INSTRUCTION MANUAL
 ### HARDWARE SETUP
- hi
+| Component | Pin|
+| :---: | :---: |
+| DHT11 | 301 |
 ### SOFTWARE SETUP
 To correctly run this application just simply download the "final_project.py" file on your raspberry pie via the Github website. 
 Alternatively you can also copy this "gh repo clone bomrena/RaspberryPI_CO2_Monitor" command into your Console if you are running a Linux operating system on your raspberry pie.
