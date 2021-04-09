@@ -22,15 +22,19 @@ In addition to the CO2-level measurement, this application also measures the hum
 
 ## INSTRUCTION MANUAL
 ### HARDWARE SETUP
+
+The conections between the RPI and the components are visible in following table:
+
 | Component | Pin|
 | :---: | :---: |
-| DHT11 | 301 |
-| MHZ19 | 301 |
-| Buzzer | 301 |
-| RGB LED Green Pin | 301 |
-| RGB LED Red Pin | 301 |
-| RGB LED Blue Pin | 301 |
-| Button | 301 |
+| DHT11 | 11 |
+| MHZ19 RX | 14 |
+| MHZ19 TX | 15 |
+| Buzzer | 16 |
+| RGB LED Green Pin | 13 |
+| RGB LED Red Pin | 12 |
+| RGB LED Blue Pin | 15 |
+| Button | 18 |
 
 LED serial resistor =220k
 
