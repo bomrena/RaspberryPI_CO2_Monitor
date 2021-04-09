@@ -23,7 +23,7 @@ In addition to the CO2-level measurement, this application also measures the hum
 ## INSTRUCTION MANUAL
 ### HARDWARE SETUP
 
-The conections between the RPI and the components are visible in following table:
+The conections between the RPI and the components are visible in the following table:
 
 | Component | Pin|
 | :---: | :---: |
@@ -39,7 +39,7 @@ The conections between the RPI and the components are visible in following table
 LED serial resistor =220k
 
 ### SOFTWARE SETUP
-To correctly run this application just simply download the "final_project.py" file on your raspberry pie via the Github website. 
+To correctly run this application just simply download the "final_project.py" file on your raspberry pi via the Github website. 
 Alternatively you can also copy this "gh repo clone bomrena/RaspberryPI_CO2_Monitor" command into your Console if you are running a Linux operating system on your raspberry pie.
 Now to start the script just double click the "final_project.py" file and everything should work.
 
