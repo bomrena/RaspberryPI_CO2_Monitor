@@ -28,8 +28,8 @@ The conections between the RPI and the components are visible in following table
 | Component | Pin|
 | :---: | :---: |
 | DHT11 | 11 |
-| MHZ19 RX | 14 |
-| MHZ19 TX | 15 |
+| MHZ19 RX | 8 |
+| MHZ19 TX | 10 |
 | Buzzer | 16 |
 | RGB LED Green Pin | 13 |
 | RGB LED Red Pin | 12 |
