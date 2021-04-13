@@ -39,15 +39,20 @@ LED serial resistor = 220 Ohm
 
 ### SOFTWARE SETUP
 
-To execute the project, you first have to download the libary for the mhz19 module. THis can be done as follows:
+To execute the project, you first have to download the libary for the mhz19 module. 
+
+This can be done as follows:
 ` pip install mh-z19 `
 
 To read one co2 value from the sensor, use the following instruction:
 ` sudo python -m mh_z19 `
 
-To correctly run this application just simply download the "Co2_Monitor.py" file on your raspberry pi via the Github website. 
-Alternatively you can also copy this "gh repo clone bomrena/RaspberryPI_CO2_Monitor" command into your Console if you are running a Linux operating system on your raspberry pie.
+To correctly run this application just simply download the "CO2_Monitor.py" file on your raspberry pi via the Github website. 
+Alternatively you can also copy this "gh repo clone bomrena/RaspberryPI_CO2_Monitor" command into your Console if you are running a Linux operating system on your raspberry pi.
 Now start the skript as superuser and everything should work. The sudo rights are necessary because of conflicts when opening a serial communication.
+
+When you have opened the terminal you need to navigate to the folder where you have the copy of the final project. If you have done this you can now start the project with the command:
+` sudo python  CO2_Monitor.py `
 
 Download the software of the final project via the following link.
 
