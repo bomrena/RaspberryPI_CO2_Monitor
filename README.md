@@ -93,8 +93,8 @@ In order to select the correct graph to upload your data to, you just need to ch
 [TEMP&DATA_TST](/temp_online.py)
 
 ## CO2 SENSOR
-[testfile](/)
+[testfile](/co2_test)
 
 
 ## FINAL PROJECT
-
+[Final Project](/CO2_Monitor)
