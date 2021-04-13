@@ -94,6 +94,8 @@ In order to select the correct graph to upload your data to, you just need to ch
 
 ## CO2 SENSOR
 the testfile for the CO2-Sensor can be downloaded via the following link
+Please notice that the RX-Pin of the MH-Z19 must be connected to PIN 8 and the TX-Pin to PIN 10.
+
 [testfile](/co2_test.py)
 
 
