@@ -36,9 +36,10 @@ The conections between the RPI and the components are visible in the following t
 | RGB LED Blue Pin | 15 |
 | Button | 18 |
 
-LED serial resistor =220k
+LED serial resistor = 220 Ohm
 
 ### SOFTWARE SETUP
+
 To correctly run this application just simply download the "final_project.py" file on your raspberry pi via the Github website. 
 Alternatively you can also copy this "gh repo clone bomrena/RaspberryPI_CO2_Monitor" command into your Console if you are running a Linux operating system on your raspberry pie.
 Now to start the script just double click the "final_project.py" file and everything should work.
