@@ -16,7 +16,7 @@ In addition to the CO2-level measurement, this application also measures the hum
 - 1 x [Active Buzzer](https://arduinomodules.info/ky-012-active-buzzer-module/)
 - 1 x [RGB LED](https://arduinomodules.info/ky-016-rgb-full-color-led-module/)
 - 1 x [Push Button](https://www.amazon.de/Youmile-100er-Pack-Miniatur-Mikro-Taster-Tastschalter-Qualit%C3%A4tsschalter-Miniature-6-x-5-mm/dp/B07Q1BXV7T/)
-- 1 x 200Ohm Resistor
+- 3 x 220Ohm Resistor
 - Jumper Wires: Male to Male, Female to Male
 
 ## INSTRUCTION MANUAL
