@@ -93,7 +93,8 @@ In order to select the correct graph to upload your data to, you just need to ch
 [TEMP&DATA_TST](/temp_online.py)
 
 ## CO2 SENSOR
-the testfile for the CO2-Sensor can be downloaded via the following link
+the testfile for the CO2-Sensor can be downloaded via the following link.
+
 Please notice that the RX-Pin of the MH-Z19 must be connected to PIN 8 and the TX-Pin to PIN 10.
 
 [testfile](/co2_test.py)
@@ -101,4 +102,5 @@ Please notice that the RX-Pin of the MH-Z19 must be connected to PIN 8 and the T
 
 ## FINAL PROJECT
 Download the software of the final project via the following link.
+
 [Final Project](/CO2_Monitor.py)
